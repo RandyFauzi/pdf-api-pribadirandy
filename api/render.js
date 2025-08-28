@@ -1,6 +1,9 @@
 const chromium = require('@sparticuz/chromium');
 const puppeteer = require('puppeteer-core'); // Kita perlu memanggil puppeteer secara langsung
 
+chromium.setHeadlessMode = true;
+chromium.setGraphicsMode = false;
+
 // Fungsi handler utama
 export default async function handler(req, res) {
   // Hanya izinkan metode POST
