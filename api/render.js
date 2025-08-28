@@ -1,5 +1,5 @@
 // Impor library yang sudah kita install
-const chromium = require('chrome-aws-lambda');
+const chromium = require('@sparticuz/chromium');
 
 // Ini adalah fungsi utama yang akan dijalankan oleh Vercel
 export default async function handler(req, res) {
